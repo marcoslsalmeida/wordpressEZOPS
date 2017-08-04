@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'rdswordbanco');
+define('DB_NAME', 'wpbanco');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -29,7 +29,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', '12345678');
 
 /** MySQL hostname */
-define('DB_HOST', 'rdsword1.cmvwr3l9hulu.sa-east-1.rds.amazonaws.com:3306');
+define('DB_HOST', 'wordpressdb.cmvwr3l9hulu.sa-east-1.rds.amazonaws.com:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
