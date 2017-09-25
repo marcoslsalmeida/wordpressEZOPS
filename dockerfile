@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install apache2 php libapache2-mod-php php-mcrypt 
 
 RUN a2enmod rewrite
 
-ENV INSTALL_PATH /var/www/html/wpezops5/
+ENV INSTALL_PATH /var/www/html/wpezops6/
 
 WORKDIR $INSTALL_PATH
 
